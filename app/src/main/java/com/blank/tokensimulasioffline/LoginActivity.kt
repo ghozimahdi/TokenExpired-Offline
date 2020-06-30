@@ -17,7 +17,6 @@ class LoginActivity : AppCompatActivity() {
         }
         setContentView(R.layout.activity_login)
 
-
         btnLogin.setOnClickListener {
             sharedPref.isTokenExpiret = false
             sharedPref.isLogin = true
